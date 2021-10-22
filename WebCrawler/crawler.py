@@ -45,7 +45,13 @@ for job_element in job_elements:
 #asd.company
 #asd.location
 
-with open('C:/Users/tomsve/Git/tommysvensson0-azure-private/ProjectW3C/WebCrawler/file1.csv', 'w', newline='',) as csvfile:
+#with open('C:/Users/Tommy/Git/tommysvensson0-azure-private/ProjectW3C/WebCrawler/file1.csv', 'w', newline='',) as csvfile:
+#    writer = csv.writer(csvfile)
+#    writer.writerow(['Title','Company','Location'])
+#    for object in objects:
+#        writer.writerow([object.title, object.company, object.location])
+
+with open('/app/file1.csv', 'w', newline='',) as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(['Title','Company','Location'])
     for object in objects:
