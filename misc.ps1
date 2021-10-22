@@ -1,0 +1,1 @@
+az acr login --name w3cregistry.azurecr.io
