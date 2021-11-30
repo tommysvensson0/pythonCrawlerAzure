@@ -53,6 +53,13 @@ async def main():
 if(__name__ == "__main__"):
     asyncio.run(main())
 
+# with open('/app/file1.csv', 'w', newline='',) as csvfile:
+#     writer = csv.writer(csvfile)
+#     writer.writerow(['Title','Company','Location'])
+#     for object in objects:
+#         writer.writerow([object.title, object.company, object.location])
+
+
 #How I solved it before
 # for source in image.contents:
 #     print(source)
