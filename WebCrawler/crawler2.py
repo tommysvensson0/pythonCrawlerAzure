@@ -3,8 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-#URL = "https://w3champions.com/Rankings/"
-#page = requests.get(URL)
 driver=webdriver.Chrome()
 driver.get('https://w3champions.com/Rankings/')
 html = driver.page_source
